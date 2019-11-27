@@ -1,0 +1,83 @@
+body {
+  background-image: url("https://cdn5.vectorstock.com/i/1000x1000/64/44/abstract-blue-wave-background-blue-wave-business-vector-23726444.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: scroll;
+}
+h1{
+	color: white;
+	background-color: blue;
+	font-size: 50px;
+	font-family: verdana;
+	text-align: center;
+	text-decoration: underline;
+	border: 4px dashed tomato;
+	padding: 15px;
+	margin: 40px;
+	outline-style: solid;
+	outline-color: lightgray;
+	outline-width: 15px;
+}
+h2{
+	color: blue;
+	background-color: skyblue;
+	font-size: 30px;
+	font-family: verdana;
+	text-align: center;
+	text-decoration: line-through;
+	text-transform: uppercase;
+	border: 4px ridge black;
+	padding: 5px;
+	margin: 40px;
+	outline-style: solid;
+	outline-color: dodgerblue;
+	outline-width: 15px;
+}
+h3{
+	color: white;
+	background-color: lightgreen;
+	font-size: 20px;
+	font-family: verdana;
+	text-align: center;
+	text-decoration: overline;
+	border: 3px solid black;
+	padding: 5px;
+	margin: 40px;
+	display: inline-block;
+}
+p{
+	color: black;
+	background-color: lightyellow;
+	font-size: 20px;
+	font-family: calibri;
+	text-align: justify;
+	text-indent: 50px;
+	letter-spacing: 1px;
+	line-height: 1.5;
+	text-shadow: 3px 2px lightgray;
+	padding: 3px;
+	margin: 40px;
+}
+ol, ul{
+	color: navy;
+	font-size: 20px;
+	font-family: cambria;
+	text-align: left;
+	padding: 3px;
+	margin: 40px;
+}
+.nav {
+  background-color: lightgray; 
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  max-width: 1000px;
+  border: 3px solid green;
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}

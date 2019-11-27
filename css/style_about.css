@@ -1,0 +1,82 @@
+.header{
+	min-height: 10px;
+	background-color: dodgerblue;
+	color: white;
+	font-size: 50px;
+	text-align: center;
+
+
+}
+.container{
+	
+}
+.blog{
+	float: left;
+	width: 65%;
+	min-height: 100px;
+	background-color: lightgreen;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding: 20px;
+	border: 5px solid black;
+}
+.contact{
+	float: right;
+	width: 24%;
+	min-height: 100px;
+	background-color: orange;
+	color: white;
+	font-size: 10px;
+	text-align: center;
+	padding: 20px;
+	border: 5px solid black;
+}
+.footer{
+	clear: both;
+	min-height: 100px;
+	background-color: skyblue;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding: 20px;
+}
+.wrapper{
+	min-height: 400px;
+	border: 5px solid tomato;
+	position: relative;
+}
+.box{
+	width: 70px;
+	height: 70px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding: 20px;
+	position: absolute;
+}
+.box1{
+	background-color: dodgerblue;
+	z-index: 999;
+}
+.box2{
+	background-color: pink;
+	left: 0;
+	bottom: 0;
+}
+.box3{
+	background-color: red;
+	top: 0;
+	right: 0;
+}
+.box4{
+	background-color: gray;
+	right: 0;
+	bottom: 0;
+}
+.box5{
+	background-color: green;
+	left: 0;
+	right: 0;
+	margin: 150px auto;
+}
